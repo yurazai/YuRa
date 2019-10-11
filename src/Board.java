@@ -13,7 +13,9 @@ public class Board {
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 if ((i + j) % 2 == 0) {
+
                     vertical.append("0"); // симво который рисуется
+
                 } else {
 
                     vertical.append("1");
