@@ -13,9 +13,14 @@ public class Board {
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 if ((i + j) % 2 == 0) {
-                    vertical.append(" #"); // симво который рисуется
+
+
+                    vertical.append("0"); // симво который рисуется
+
                 } else {
-                    vertical.append("  ");
+
+                    vertical.append("1");
+
                 }
             }
             vertical.append('\n');
